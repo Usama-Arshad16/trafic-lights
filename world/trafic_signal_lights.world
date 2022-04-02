@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+
+  <gravity>0 0 0</gravity>
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <name>traffic_signal</name>
+        <uri>model://traffic_signal</uri>
+       <pose>0 0 0 0 0 0</pose>
+    </include> 
+
+    <include>
+      <name>red_light</name>
+        <uri>model://red_light</uri>
+       <pose>-0.01 -0.31 2.315 1.57 0 0</pose>
+    </include> 
+
+    <include>
+      <name>empty_light_1</name>
+        <uri>model://empty_light</uri>
+       <pose>-0.01 -0.25 2.315 1.57 0 0</pose>
+    </include> 
+
+    <include>
+      <name>yellow_light</name>
+        <uri>model://yellow_light</uri>
+       <pose>-0.01 -0.31 2.08 1.57 0 0</pose>
+    </include> 
+
+    <include>
+      <name>empty_light_2</name>
+        <uri>model://empty_light</uri>
+       <pose>-0.01 -0.25 2.08 1.57 0 0</pose>
+    </include> 
+
+    <include>
+      <name>green_light</name>
+        <uri>model://green_light</uri>
+       <pose>-0.01 -0.31 1.81 1.57 0 0</pose>
+    </include> 
+
+    <include>
+      <name>empty_light_3</name>
+        <uri>model://empty_light</uri>
+       <pose>-0.01 -0.25 1.81 1.57 0 0</pose>
+    </include> 
+
+  </world>
+</sdf>
